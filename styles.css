@@ -1,0 +1,148 @@
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    display: none;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+}
+
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+}
+
+.container-outer {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  top: 50px;
+  width: 325px;
+  height: 475px;
+  background-color: white;
+}
+
+.main-img {
+    overflow: hidden;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-inner {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 5px;
+    padding: 25px;
+    width: 275px;
+    height: 267px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.3rem;
+    position: relative;
+    top: 5px;
+    font-weight: 900;
+}
+
+.main-p {
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.order-container {
+    position:relative;
+    top: 25px;
+    height: 75px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.order-container img {
+    top: 12.5px;
+    left: 12.5px;
+    position: relative;
+}
+
+.plan {
+    position: relative;
+    bottom: 15px;
+    left: 17px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.price {
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+    right: 69px;
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+    font-size: 13px;
+    color: hsl(245, 75%, 52%);
+}
+
+.change:hover {
+    color: hsla(245, 75%, 52%, 0.7);
+}
+
+.checkout-container {
+    background-color: hsl(245, 75%, 52%);
+    position: relative;
+    top: 45px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.checkout-container:hover {
+    background-color:hsla(245, 75%, 52%, 0.7);
+}
+
+.checkout {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.cancel-order {
+    text-decoration: none;
+    position: relative;
+    top: 56px;
+    left: 94px;
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+}
